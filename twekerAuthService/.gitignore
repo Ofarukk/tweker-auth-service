@@ -1,0 +1,59 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# IntelliJ IDEA için ek gereksiz dosyalar
+out/
+.idea/
+.idea_modules/
+
+# Maven ve Java için gereksiz build dosyaları
+*.class
+*.jar
+*.war
+*.ear
+*.log
+hs_err_pid*
+
+# Maven Build için gereksiz dosyalar
+mvnw
+mvnw.cmd
+.mvn/
+
+# Docker için gereksiz dosyalar
+*.env
+docker-compose.override.yml
+
+# İşletim Sistemi (MacOS, Windows, Linux) için gereksiz dosyalar
+.DS_Store
+Thumbs.db
